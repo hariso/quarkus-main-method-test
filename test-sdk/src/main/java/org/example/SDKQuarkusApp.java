@@ -5,9 +5,13 @@ import io.quarkus.runtime.QuarkusApplication;
 
 public class SDKQuarkusApp implements QuarkusApplication {
 
+    public SDKQuarkusApp() {
+
+    }
+
     @Override
-    public int run(String... args) throws Exception {
-        System.out.printf("org.example.Main.MyApp.run called.");
+    public int run(String... args) {
+        System.out.printf("org.example.SDKQuarkusApp.run called.");
 
         Quarkus.waitForExit();
 

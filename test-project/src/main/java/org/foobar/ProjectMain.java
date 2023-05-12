@@ -6,6 +6,6 @@ import io.quarkus.runtime.annotations.QuarkusMain;
 @QuarkusMain
 public class ProjectMain {
     public static void main(String[] args) {
-        Quarkus.run(ProjectQuarkusApp.class, args);
+        Quarkus.run(org.example.SDKQuarkusApp.class, args);
     }
 }
